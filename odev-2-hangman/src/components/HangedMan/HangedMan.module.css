@@ -1,0 +1,23 @@
+.HangedMan {
+  background-color: #eeeeee;
+  color: #1f1f1f;
+  height: 100%;
+  width: 350px;
+  border-radius: 25px;
+  padding: 25px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.HangedMan img {
+  width: 250px;
+  height: 325px;
+  user-drag: none;
+  -webkit-user-drag: none;
+  user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
