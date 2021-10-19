@@ -1,0 +1,115 @@
+.card {
+  color: #222222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: rgb(146,144,231);
+  background: linear-gradient(180deg, rgba(146,144,231,1) 0%, rgba(197,195,219,1) 100%);
+  border-radius: 15px;
+  margin: 5px;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 25px;
+  min-height: 650px;
+  width: 320px;
+}
+
+.card > div {
+  width: 300px;
+  padding: 25px 25px 0px 25px;
+  align-items: center;
+}
+
+.card-intro {
+  display: flex;
+  flex-direction: column;
+  margin: 5px 2.5px 5px 5px;
+  border-radius: 15px;
+}
+
+.card-intro h1 {
+  font-weight: 600;
+  margin: 0;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.card-intro span {
+  font-weight: 400;
+  color: #424242;
+  font-size: 24px;
+  line-height: 24px;
+}
+
+.card-intro h2 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 600;
+  width: fit-content;
+  border-radius: 15px;
+  margin-bottom: 15px;
+}
+
+.card-intro p {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+img {
+  width: 150px;
+  background: rgb(133, 131, 202);
+  background: linear-gradient(180deg, rgb(133, 131, 202) 0%, rgb(160, 158, 182) 100%);
+  border-radius: 15px;
+  overflow: hidden;
+  margin-bottom: 15px;
+}
+
+.card-temp {
+  margin: 5px 2.5px 5px 2.5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card-misc {
+  background: rgb(133, 131, 202);
+  background: linear-gradient(180deg, rgb(133, 131, 202) 0%, rgb(160, 158, 182) 100%);
+  padding: 15px;
+  border-radius: 15px;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+.card-misc div {
+  margin-bottom: 15px;
+  border-radius: 5px;
+  background-color: rgb(108, 106, 177);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 10px;
+  text-transform: uppercase;
+  font-size: 12px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  color: #fff;
+  font-weight: 800;
+  width: 100%;
+}
+
+.card-misc div:last-child {
+  margin-bottom: 0;
+}
+
+.card-misc span {
+  width: 100px;
+  text-align: center;
+  padding: 5px;
+  color: #eee;
+  background-color: rgb(74, 70, 165);
+  border-radius: 5px;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: normal;
+  text-transform: initial;
+  font-size: 14px;
+}
